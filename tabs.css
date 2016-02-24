@@ -1,0 +1,70 @@
+body
+{
+    font-size: 80%;                         /* Default font and size for page */
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+}
+ul#tabs
+{
+    list-style-type: none;                  /* No bullets                     */
+    margin: 0 0 0 0;                    /* Positive top margin            */
+    padding: 0 0 0.3em 0;                   /* Bottom padding on tabs to make  */
+                                            /* them adjacent to the content   */
+}
+ul#tabs li
+{
+    display: inline;
+    padding: 5px;
+}
+
+ul#tabs li a
+{
+    color: Orange;
+    background-color: black;
+    border: 1px solid black;
+    border-bottom: none;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding: 0.3em 2em 0.3em 2em;
+    text-decoration: none;
+
+}
+
+ul#tabs li a.selected
+{
+    color: black;
+    background-color: orange;
+
+}
+
+div.tabContent
+{
+    border: 2px dotted black;
+    padding: 5%;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+div.tabContent.hide
+{
+    display: none;
+}
+
+#ghaddress {
+  float:right;
+  bottom: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+a:link, a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+
+li {
+  font-size: 13px;
+  padding-bottom: 10px;
+}
