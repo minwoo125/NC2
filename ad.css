@@ -1,0 +1,90 @@
+#main {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 5%;
+	align-items:
+}
+
+p {
+	text-align: center;
+		color: #051803;
+}
+
+body {
+		height: 100%;
+}
+
+#cap {
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size: 15px;
+	margin-top: 0px;
+}
+
+#name {
+	padding-top: 5%;
+	font-size: 39px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	padding-top: 5%;
+}
+
+#title {
+	font-style: italic;
+	font-size: 20px;
+	margin: 0px;
+	letter-spacing: -1px;
+}
+
+#title2 {
+	margin: 0px;
+}
+
+#midbreak {
+	color: grey;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	margin-left: 47.5%;
+	width: 5%;
+	border-bottom: 1px solid;
+}
+
+#time {
+	font-size: 23px;
+}
+
+
+#lastbreak{
+	color: grey;
+	margin: 0px;
+}
+
+#gallery {
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: -2px;
+	margin: 0px;
+	position:relative;
+	right: -7.5%;
+}
+
+#address {
+	margin: 0px;
+	letter-spacing: -1px;
+	font-size: 15px;
+	position:relative;
+	right: -7.5%;
+}
+
+#website {
+	position:relative;
+	right: -7.5%;
+	margin-bottom: 7%;
+}
+
+#rb{
+float: right;
+right: 0px;
+bottom: 0px;
+width: 15%;
+height: 8%;
+}
